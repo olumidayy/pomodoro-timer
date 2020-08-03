@@ -23,6 +23,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+
+  circular_countdown_timer: ^0.0.4
+  circular_countdown: ^1.2.1
+  audioplayers: ^0.15.1
+  stop_watch_timer: ^0.5.0 
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -45,8 +51,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/bell.wav
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
