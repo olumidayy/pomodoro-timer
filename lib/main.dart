@@ -41,6 +41,12 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   @override
+  void dispose(){
+    super.dispose();
+    unit = CountdownUnit.second;
+  }
+
+  @override
   Widget build(BuildContext context) {
     final player = new AudioCache();
     return Scaffold(
