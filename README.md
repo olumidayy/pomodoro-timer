@@ -2,4 +2,4 @@
 
 A Flutter timer app.
 
-[Link to release apk](https://gofile.io/d/MPhryK)
+[Link to release apk](https://srv-file8.gofile.io/download/MPhryK/app-release.apk)
