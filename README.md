@@ -8,5 +8,5 @@ A Flutter timer app.
 
 | - | n | n |
 |:---:|:---:|:---:|
-|![img](assets/pom.png)| n | n |
+|![img](assets/pom.png =100x20)| n | n |
 
