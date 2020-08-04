@@ -2,4 +2,4 @@
 
 A Flutter timer app.
 
-[Link to release apks](https://github.com/olumidayy/pomodoro-timer/tree/master/builds)
+[Link to release apk](https://gofile.io/d/MPhryK)
