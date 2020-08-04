@@ -6,7 +6,7 @@ A Flutter timer app.
 
 #### Screenshot(s)
 
-| - | n | n |
+| - | - | - |
 |:---:|:---:|:---:|
-|![img](assets/pom.png =100x20)|<img src="assets/pom.png" alt="drawing" width="200"/> | n |
+|<img src="assets/pom.png" alt="drawing" width="200"/>| - | - |
 
