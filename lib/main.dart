@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int time = 1;
+  int time;
   var unit;
 
 
@@ -38,6 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState(){
     super.initState();
     unit = CountdownUnit.second;
+    time = 1;
   }
 
   @override
@@ -85,8 +86,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text('Begin Session'),
                   onPressed: () {
                     setState(() {
-                      time = 25;
                       unit = CountdownUnit.minute;
+                      time = 25;
                       player.play('bell.wav');
                     });
                   }),
@@ -103,8 +104,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Text('Long Break'),
                       onPressed: () {
                         setState(() {
-                          time = 10;
                           unit = CountdownUnit.minute;
+                          time = 10;
                           player.play('bell.wav');
                         });
                       }),
@@ -119,7 +120,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       onPressed: () {
                         setState(() {
                           time = 5;
-                          unit = CountdownUnit.minute;
                           player.play('bell.wav');
                         });
                       }),
